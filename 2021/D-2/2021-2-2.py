@@ -14,4 +14,4 @@ with open("%s\\2021\\D-2\\2021-2-IN.txt"%(path)) as f:
             aim+=int(line.split(" ")[1])
         else:
             aim-=int(line.split(" ")[1])
-print("%d %d %d"%(horizontal,depth,horizontal*depth))
+print(horizontal*depth)
