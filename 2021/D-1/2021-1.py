@@ -1,7 +1,7 @@
 import os
 path=os.getcwd()
 L = []
-with open("%s\\2021-1-IN.txt"%(path)) as f:
+with open("%s\\2021\\D-1\\2021-1-IN.txt"%(path)) as f:
     for line in f:
         L.append(int(line))
 measures={}
